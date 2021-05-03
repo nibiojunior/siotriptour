@@ -1,0 +1,112 @@
+:root {
+    --color-primary: #0fa7ab;
+    --color-secundary: #4b4b5a;
+    --color-primary-mid: #05b8ba;
+    --color-primary-ligth: #00c9c9;
+    --color-secundary-light: #386a75;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../image/fundo1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;    
+}
+
+/************
+*    HOME
+************/
+
+.home .header{
+    padding: 0 0;
+}
+
+.home .header  img {
+    position: relative;
+    margin-left: 40%; 
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
+}
+
+/**********
+ container
+ *********/
+ 
+.content {
+    position: relative;
+    margin-top: -5%;
+    display: block;
+    justify-content: space-between;
+    margin-left: 55%;
+}
+
+.content h1 {
+    margin: 0 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--color-secundary);
+    text-align: center;
+}
+
+.content  h2 {
+    margin: 20px;
+    font-size: 25px; 
+    text-align: center;
+    color: white;
+}
+
+.content  button{
+    margin: 10px;
+    background-color: var(--color-primary-ligth);
+    color: var(--color-secundary-light);
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+/***********
+  FOOTER
+***********/  
+
+.footer {
+    margin-top: 20px;
+    background-color: var(--color-secundary);
+    color: var(--color-primary-ligth);
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul li {
+    list-style: none;
+    list-style-position: inside;
+    justify-content: space-between;
+}
